@@ -72,10 +72,10 @@ return [
 		/**
 		Race 9
 		*/
-		'favorites' => '(F) 5, 7, 10',
+		'favorites' => '(F) 5, 7, 10, 14',
 		'unions($10)' => '3, 5, 10, 12',
-		'union + favorites' => '3, 5, 7, 10, 12',
-		'count union + favorites' => '5',
+		'union + favorites' => '3, 5, 7, 10, 12, 14',
+		'count union + favorites' => '6',
 	],
 	'10' => [
 		/**
