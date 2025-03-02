@@ -85,6 +85,5 @@ return [
 		'union + favorites' => '1, 2, 3, 4, 5, 7, 11',
 		'count union + favorites' => '7',
 		'qin(union 1020)' => '1, 2, 5, 11',
-		'qin(union 1029)' => '2, 5, 7, 11',
 	],
 ];
