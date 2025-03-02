@@ -71,15 +71,14 @@ return [
 		/**
 		Race 6
 		*/
-		'favorites' => '3, 7, 13',
+		'favorites' => '1, 3, 7, 13',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
-		'win inter' => '12',
+		'win inter' => '',
 		'qin inter' => '3, 7, 12',
-		'trio inter' => '2, 3, 5, 7, 12',
+		'trio inter' => '2, 3, 7, 12',
 		'bets' => [
-			'qin(union 667)' => '3, 7, 12, 13',
 		],
-		'total bets' => 60,
+		'total bets' => 0,
 	],
 	'7' => [
 		/**
@@ -136,5 +135,5 @@ return [
 		'total bets' => 60,
 	],
 ];
-//total qin: -240
+//total qin: -180
 //total: 0
