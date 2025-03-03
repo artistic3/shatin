@@ -66,6 +66,8 @@ return [
 		'count union + favorites' => '5',
 		'sevens($10)' => '1, 2, 3, 4, 5, 6, 8',
 		'count sevens' => '7',
+		'inter sevens unions' => '1, 4, 5',
+		'count inter sevens unions' => '3',
 	],
 	'9' => [
 		/**
