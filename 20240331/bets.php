@@ -17,8 +17,8 @@ return [
 			13 => 65,
 		],
 		'win inter' => '',
-		'qin inter' => '1, 11',
-		'trio inter' => '1, 4, 11',
+		'qin inter' => '1, 10, 11',
+		'trio inter' => '1, 4, 10, 11',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -39,7 +39,7 @@ return [
 			10 => 248.5,
 		],
 		'win inter' => '2, 4, 9',
-		'qin inter' => '1, 2, 4, 5, 6, 9, 14',
+		'qin inter' => '1, 2, 4, 5, 6, 9, 10, 14',
 		'trio inter' => '1, 2, 3, 4, 5, 6, 7, 9, 10, 14',
 		'bets' => [
 		],
@@ -62,7 +62,7 @@ return [
 		],
 		'win inter' => '2, 4, 7',
 		'qin inter' => '2, 4, 7',
-		'trio inter' => '1, 2, 4, 5, 7',
+		'trio inter' => '1, 2, 3, 4, 5, 7',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -83,8 +83,8 @@ return [
 			9 => 51.5,
 		],
 		'win inter' => '6',
-		'qin inter' => '3, 6',
-		'trio inter' => '2, 3, 6, 11',
+		'qin inter' => '3, 6, 12',
+		'trio inter' => '2, 3, 6, 11, 12',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -126,8 +126,8 @@ return [
 			8 => 50.5,
 			10 => 43.5,
 		],
-		'win inter' => '2, 5, 6, 7, 8, 9, 10, 11, 12',
-		'qin inter' => '2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
+		'win inter' => '2, 4, 5, 6, 7, 8, 9, 10, 11, 12',
+		'qin inter' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'trio inter' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'bets' => [
 		],
@@ -192,12 +192,14 @@ return [
 			5 => 50,
 			8 => 23,
 		],
-		'win inter' => '',
-		'qin inter' => '',
-		'trio inter' => '',
+		'win inter' => '11',
+		'qin inter' => '7, 11',
+		'trio inter' => '7, 11',
 		'bets' => [
+			'qin(union )' => '8, 10, 11, 13',
 		],
-		'total bets' => 0,
+		'total bets' => 60,
+		'total won in race 9' => -60,
 	],
 	'10' => [
 		/**
@@ -214,13 +216,15 @@ return [
 			2 => 42,
 			8 => 24,
 		],
-		'win inter' => '7',
-		'qin inter' => '1, 2, 3, 7, 8',
-		'trio inter' => '1, 2, 3, 4, 7, 8, 9',
+		'win inter' => '7, 10',
+		'qin inter' => '1, 2, 3, 7, 8, 10',
+		'trio inter' => '1, 2, 3, 4, 7, 8, 9, 10',
 		'bets' => [
+			'qin(union )' => '1, 7, 8, 10',
 		],
-		'total bets' => 0,
+		'total bets' => 60,
+		'total won in race 10' => -60,
 	],
 ];
-//total qin: 0
-//total: 0
+//total qin: -120
+//total: -120
