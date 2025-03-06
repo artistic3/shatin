@@ -63,8 +63,8 @@ return [
 			3 => 27,
 		],
 		'win inter' => '2',
-		'qin inter' => '2, 7, 8, 11, 14',
-		'trio inter' => '1, 2, 5, 7, 8, 9, 11, 14',
+		'qin inter' => '2, 7, 8, 14',
+		'trio inter' => '1, 2, 7, 8, 9, 11, 14',
 		'bets' => [
 			'qin(union )' => '1, 2, 4, 8',
 			'1 won(qin bet)' => 77,
