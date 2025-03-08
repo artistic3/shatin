@@ -9,8 +9,8 @@ return [
 		'unions($10)' => '1, 2, 5, 6, 7, 11',
 		'union + favorites' => '1, 2, 5, 6, 7, 11',
 		'count union + favorites' => '6',
-		'qin(union 2)' => '2, 5, 6, 7',
-		'qin(union 22)' => '1, 2, 6, 7',
+		'qin(union 1015)' => '1, 2, 6, 7',
+		'qin(union 1027)' => '2, 5, 6, 7',
 	],
 	'2' => [
 		/**
@@ -51,8 +51,8 @@ return [
 		'unions($10)' => '2, 3, 9, 11, 12',
 		'union + favorites' => '2, 3, 9, 11, 12',
 		'count union + favorites' => '5',
-		'qin(union 12)' => '2, 3, 9, 12',
-		'qin(union 18)' => '2, 3, 11, 12',
+		'qin(union 1005)' => '2, 3, 9, 12',
+		'qin(union 1011)' => '2, 3, 11, 12',
 	],
 	'7' => [
 		/**
@@ -81,7 +81,7 @@ return [
 		/**
 		Race 9
 		*/
-		'favorites' => '(F) 1, 10',
+		'favorites' => '(F) 1, 10, 11',
 		'qin(union )' => '1, 3, 10, 11',
 		'unions($10)' => '1, 3, 10, 11',
 		'union + favorites' => '1, 3, 10, 11',
@@ -91,10 +91,10 @@ return [
 		/**
 		Race 10
 		*/
-		'favorites' => '(F) 4, 5, 11, 13',
+		'favorites' => '(F) 4, 5, 7, 11, 13',
 		'unions($10)' => '3, 4, 5, 10, 13',
-		'union + favorites' => '3, 4, 5, 10, 11, 13',
-		'count union + favorites' => '6',
+		'union + favorites' => '3, 4, 5, 7, 10, 11, 13',
+		'count union + favorites' => '7',
 	],
 	'11' => [
 		/**
