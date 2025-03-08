@@ -14,11 +14,11 @@ return [
 		/**
 		Race 2
 		*/
-		'favorites' => '(F) 4, 6, 7',
-		'qin(union )' => '4, 6, 7, 9',
-		'unions($10)' => '2, 4, 6, 7, 9, 10',
-		'union + favorites' => '2, 4, 6, 7, 9, 10',
-		'count union + favorites' => '6',
+		'favorites' => '(F) 4, 6, 7, 12',
+		'qin(union )' => '4, 6, 7, 12',
+		'unions($10)' => '2, 4, 6, 7, 9, 10, 12',
+		'union + favorites' => '2, 4, 6, 7, 9, 10, 12',
+		'count union + favorites' => '7',
 	],
 	'3' => [
 		/**
@@ -33,10 +33,10 @@ return [
 		/**
 		Race 4
 		*/
-		'favorites' => '(F) 2, 5, 13',
+		'favorites' => '(F) 2, 5, 12, 13',
 		'unions($10)' => '1, 2, 4, 5',
-		'union + favorites' => '1, 2, 4, 5, 13',
-		'count union + favorites' => '5',
+		'union + favorites' => '1, 2, 4, 5, 12, 13',
+		'count union + favorites' => '6',
 	],
 	'5' => [
 		/**
@@ -94,7 +94,7 @@ return [
 		/**
 		Race 10
 		*/
-		'favorites' => '(F) 1, 4, 5, 7, 11, 13',
+		'favorites' => '(F) 1, 4, 5, 7, 10, 11, 13',
 		'unions($10)' => '3, 4, 5, 10, 13',
 		'union + favorites' => '1, 3, 4, 5, 7, 10, 11, 13',
 		'count union + favorites' => '8',
@@ -103,6 +103,6 @@ return [
 		/**
 		Race 11
 		*/
-		'favorites' => '(F) 4, 6, 9, 14',
+		'favorites' => '(F) 4, 6, 9, 11, 14',
 	],
 ];
