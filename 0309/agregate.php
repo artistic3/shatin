@@ -73,11 +73,10 @@ return [
 		/**
 		Race 8
 		*/
-		'favorites' => '(F) 1, 6, 7',
-		'qin(union )' => '1, 5, 6, 7',
+		'favorites' => '(F) 1, 3, 6, 7',
 		'unions($10)' => '1, 4, 5, 6, 7',
-		'union + favorites' => '1, 4, 5, 6, 7',
-		'count union + favorites' => '5',
+		'union + favorites' => '1, 3, 4, 5, 6, 7',
+		'count union + favorites' => '6',
 	],
 	'9' => [
 		/**
