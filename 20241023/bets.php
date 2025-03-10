@@ -40,7 +40,7 @@ return [
 		],
 		'win inter' => '',
 		'qin inter' => '1',
-		'trio inter' => '1, 5, 7',
+		'trio inter' => '1, 3, 5, 7',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -84,7 +84,7 @@ return [
 		],
 		'win inter' => '2, 10, 11',
 		'qin inter' => '1, 2, 3, 4, 10, 11',
-		'trio inter' => '1, 2, 3, 4, 10, 11',
+		'trio inter' => '1, 2, 3, 4, 6, 10, 11',
 		'bets' => [
 			'qin(union )' => '1, 2, 10, 11',
 		],
